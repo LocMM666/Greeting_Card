@@ -34,6 +34,7 @@ fun BirthdayGreetingWithText(message: String, from: String) {
     Row {
         Text(text = message, fontSize = 36.sp)
         Text(text = from, fontSize = 24.sp)
+        Text(text = message, fontSize = 23.sp)
     }
 }
 
